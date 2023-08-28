@@ -1,6 +1,6 @@
 //Maya ASCII 2024 scene
 //Name: Chair1.ma
-//Last modified: Mon, Aug 28, 2023 02:08:11 PM
+//Last modified: Mon, Aug 28, 2023 02:10:26 PM
 //Codeset: 1252
 requires maya "2024";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" "mtoa" "5.3.1.1";
@@ -10,7 +10,7 @@ fileInfo "product" "Maya 2024";
 fileInfo "version" "2024";
 fileInfo "cutIdentifier" "202304191415-7fa20164c6";
 fileInfo "osv" "Windows 11 Enterprise v2009 (Build: 22621)";
-fileInfo "UUID" "6A5B5041-433B-A5FF-15FE-D9B54682B817";
+fileInfo "UUID" "D2E49018-46F3-02B8-A17E-888408136C32";
 createNode transform -s -n "persp";
 	rename -uid "50C59322-40A6-6A40-CB61-E493C95390DD";
 	setAttr ".v" no;
@@ -235,20 +235,20 @@ createNode mesh -n "pCube8Shape" -p "pCube8";
 	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "84F699E4-4778-9DBB-40CC-4B9EE2CA438F";
+	rename -uid "DFCB9623-44C7-3BE9-1C15-3684F274B84F";
 	setAttr -s 2 ".lnk";
 	setAttr -s 2 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "80131659-44D1-654F-7FA1-A89C503D2B86";
+	rename -uid "A3555D53-47CA-EB85-90EB-238BC100E9FF";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "07D179FD-47EA-3738-7CDD-4B9C4E000E30";
+	rename -uid "2E803F07-4706-EAC2-0E55-C5A8C871C31E";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "01E802AA-438B-3307-7E49-51AF8D4AEC58";
+	rename -uid "2A9F19EA-4E44-F986-63CD-0E87B8E01815";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "CA71B496-4659-225C-AD9E-63836F3FE55C";
 	setAttr ".ufem" -type "stringArray" 0  ;
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "9B58280A-4D80-56A0-43F8-89913D0C82A3";
+	rename -uid "5C506D59-42B0-3C95-AA8B-0197FC2C9B20";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "C8E7B343-4F65-1FA7-8A27-17B18590AACB";
 	setAttr ".g" yes;
