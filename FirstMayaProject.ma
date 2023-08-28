@@ -1,6 +1,6 @@
 //Maya ASCII 2024 scene
 //Name: FirstMayaProject.ma
-//Last modified: Mon, Aug 28, 2023 01:47:23 PM
+//Last modified: Mon, Aug 28, 2023 01:49:16 PM
 //Codeset: 1252
 requires maya "2024";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" "mtoa" "5.3.1.1";
@@ -10,7 +10,7 @@ fileInfo "product" "Maya 2024";
 fileInfo "version" "2024";
 fileInfo "cutIdentifier" "202304191415-7fa20164c6";
 fileInfo "osv" "Windows 11 Enterprise v2009 (Build: 22621)";
-fileInfo "UUID" "F8B52E10-4DF7-0827-AE26-428C693A7285";
+fileInfo "UUID" "D5C80FA1-4263-EBC7-8199-4788CBD99E15";
 createNode transform -s -n "persp";
 	rename -uid "18E18727-4C3D-C5FB-D242-1B9C527586A1";
 	setAttr ".v" no;
