@@ -2,3 +2,5 @@
 *.obj
 
 *.mtl
+
+*.painter_lock
